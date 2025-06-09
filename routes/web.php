@@ -8,12 +8,12 @@ use Inertia\Inertia;
 // })->name('home');
 
 Route::get('/', function () {
-    return Inertia::render('Home');
+    return Inertia::render('home/Home');
 })->name('home');
 
 
 Route::get('about', function () {
-    return Inertia::render('About');
+    return Inertia::render('about/About');
 })->name('about');
 
 Route::get('projects', function () {

@@ -1,9 +1,11 @@
 <script setup lang="ts">
-    import MainNavbarLayout from './main/MainNavbarLayout.vue';
+    import MainFooterLayout from './main/MainFooterLayout.vue';
+    import MainHeaderLayout from './main/MainHeaderLayout.vue';
 </script>
 <template>
-    <MainNavbarLayout />
+    <MainHeaderLayout />
     <main>
         <slot />
     </main>
+    <MainFooterLayout />
 </template>
