@@ -7,6 +7,69 @@
 
 @custom-variant dark (&:is(.dark *));
 
+/* theme-ocean.css */
+:root {
+    --background: #f0fdf4;
+    --foreground: #0f172a;
+
+    --card: #ffffff;
+    --card-foreground: #0f172a;
+
+    --popover: #ffffff;
+    --popover-foreground: #0f172a;
+
+    --primary: #3b82f6; /* Soft Blue */
+    --primary-foreground: #ffffff;
+
+    --secondary: #14b8a6; /* Teal Green */
+    --secondary-foreground: #ffffff;
+
+    --muted: #e2e8f0;
+    --muted-foreground: #475569;
+
+    --accent: #38bdf8; /* Sky Blue */
+    --accent-foreground: #0c4a6e;
+
+    --destructive: #f87171;
+    --destructive-foreground: #ffffff;
+
+    --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #3b82f6;
+
+    --radius: 0.75rem;
+}
+
+.dark {
+    --background: #0f172a;
+    --foreground: #f8fafc;
+
+    --card: #1e293b;
+    --card-foreground: #f8fafc;
+
+    --popover: #1e293b;
+    --popover-foreground: #f8fafc;
+
+    --primary: #60a5fa;
+    --primary-foreground: #1e3a8a;
+
+    --secondary: #2dd4bf;
+    --secondary-foreground: #0f766e;
+
+    --muted: #334155;
+    --muted-foreground: #cbd5e1;
+
+    --accent: #7dd3fc;
+    --accent-foreground: #082f49;
+
+    --destructive: #ef4444;
+    --destructive-foreground: #7f1d1d;
+
+    --border: #334155;
+    --input: #334155;
+    --ring: #60a5fa;
+}
+
 @theme inline {
     --font-sans: Instrument Sans, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 
